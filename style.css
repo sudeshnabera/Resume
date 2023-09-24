@@ -131,4 +131,35 @@ body{
 .info ul li .icon i{
     margin-right: 5px;
 }
-  
+.social{
+    padding-top: 10px;
+}
+.right-heading{
+    padding: 40px 30px;
+    background: var(--white);
+    width: 68%;
+    float: left;
+    height: 1000px;
+}
+.about i{
+    background: var(--gray);
+    width: 36px;
+    padding: 11px;
+    border-radius: 30px;
+    float: left;
+    display: inline;
+    margin-top: -6px;
+    
+}
+.p2{
+    margin: 0 auto;
+    padding: 2px;
+    border-bottom: 1px solid var(--lightgray);
+    border-top: 1px solid var(--lightgray) ;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 50px;
+    line-height: 18px;
+}
