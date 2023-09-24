@@ -82,7 +82,10 @@ body{
 }
 .info{
     margin-top: 50px;
+    color: var(--gray);
+
 }
+
 .heading{
     width: 180px;
     margin: 0 auto;
@@ -96,75 +99,34 @@ body{
     font-size: 18px;
 
 }
-/* .p1{
-    color: var(--gray);
-    width: 184px;
-    margin: 0 auto;
-    margin-top: 25px;
-    font-size: 15px;
-    line-height: 14px;
-}
-.p1 span{
-    font-size: 12px;
-}
-.span1{
-    background: var(--gray);
-    
-    padding: 6px;
-    border-radius: 100px;
-    float: left;
-    margin-right: 10px;
-} */
 
-  
-  .p1 {
-    display: flex;
-    align-items: center;
+.info ul{
+    position: relative;
+}
+.info ul li{
+    position: relative;
+    list-style: none;
     margin: 10px 0;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-top: 5px;
     
-  }
-  
-  .span1 {
-    background: var(--gray); /* Define --gray with a color value */
-    padding: 5px;
-    border-radius: 80px;
-    margin-right: 15px;
-    margin-left: 30px;
-  }
-  
-  .label {
-    font-weight: bold;
-    margin-right: 10px;
-    color: var(--gray);
-  }
-  /* .right-heading{
-    padding: 40px 30px;
-    background: var(--white);
-    width: 88%;
-    float: left;
-    height: 1000px;
-  } */
-  .right-heading img{
-    background: var(--black);
-    width: 36px;
-    padding: 7px;
-    border-radius: 17px;
-   float: left;
+
+}
+.info ul li .icon{
     display: inline-block;
-    margin-top: 5px;
+    width: 120px;
+    font-size: 15px;
+    color: var(--gray);
+    padding-left: 30px;
+    
 }
-.p2{
-    margin-right: 100px;
-    padding: 10px;
-    border-bottom: 1px solid var(--lightgray);
-    border-top:1px solid var(--lightgray) ;
-    color: var(--black);
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-left: 100px;
-    line-height: 10px;
-
+.info ul li span{
+    
+    font-weight: 300;
+    padding-left: 30px;
 }
-
+.info ul li .icon i{
+    margin-right: 5px;
+}
   
