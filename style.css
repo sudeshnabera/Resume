@@ -141,11 +141,13 @@ body{
 
 .info ul li .icon i{
     background: var(--white);
-    
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
     padding: 6px;
     border-radius: 50%;
   
-   
+
     margin-top: 0px;
     margin-right: 5px;
     color: var(--black);
@@ -177,8 +179,10 @@ h5{
     height: 1000px;
 }
 .about i{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
     background: var(--black);
-    width: 36px;
     padding: 9px;
     border-radius: 30px;
     float: left;
