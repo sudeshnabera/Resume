@@ -33,13 +33,17 @@ body{
     height: 1000px;
     float: left;
 }
+.p-5{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .profile{
     overflow: hidden;
     position: relative;
 
 }
 .blue-box{
-    width: 257px;
+    width: 263px;
     height: 407px;
     background: var(--blue);
     margin-left:-100px ;
@@ -70,8 +74,8 @@ body{
     color: var(--blue);
 }
 .n-p{
-    width: 180px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     text-align: center;
     padding: 7px;
     border-bottom: 1px solid var(--gray);
@@ -89,7 +93,7 @@ body{
 }
 
 .heading{
-    width: 180px;
+    width: 100%;
     margin: 0 auto;
     
     padding: 2px;
@@ -127,11 +131,11 @@ body{
 }
 .info ul li .icon{
    
-    width: 60px;
+    width:32px;
     font-size: 15px;
     font-weight: bold;
     color: var(--gray);
-    padding-left: 30px;
+    
     
 }
 
