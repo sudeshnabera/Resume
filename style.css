@@ -270,3 +270,25 @@ h5{
     color: var(--lightblack);
     padding-left: 50px;
 }
+.p12{
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-bottom: 45px;
+}
+.icon1 i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black);
+    padding: 9px;
+    border-radius: 30px;
+    float: left;
+    display: inline;
+    margin-top: -6px;
+    color: var(--white);
+    margin-left: 55px;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+}
