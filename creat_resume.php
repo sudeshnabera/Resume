@@ -203,7 +203,7 @@
                      <div class="clearfix "></div>
              </div>
              <div class="about"> 
-                <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+             <i class="fa-solid fa-pen"></i>
                 <p class="p2">Projects</p>
                 <div class="clearfix "></div>
 
@@ -231,7 +231,7 @@
 
     </div>
     <div class="about"> 
-        <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+    <i class="fa-solid fa-paint-roller"></i>
         <p class="p2">Skill</p>
         <div class="clearfix "></div>
         
@@ -267,3 +267,39 @@
     
 </body>
 </html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="index_style.css">
+        <title>Document</title>
+</head>
+<body>
+        <div class="container">
+                <div class="custom-select open">
+                        <div class="select-box">
+                                <input type="option" class="option-input" name="option" hidden>
+                                <div class="selected option"></div>
+                                <span class="tag">Bengali<span class="remove-tag">&times;</span></span>
+                                <span class="tag">Bengali<span class="remove-tag">&times;</span></span>
+                                <span class="tag">Bengali<span class="remove-tag">&times;</span></span>
+                        </div>
+                        <div class="arrow">
+                        <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                </div>
+                      <div class="option1">
+                        <div class="option-search-tag">
+                              <input type="text" class="search-tag" name="search">
+                              <button type="button" class="clear"><i class="fa fa-close"></i></button>
+
+                       </div>
+                       </div> 
+                
+        </div>
+
+    <script scr="script.js"></script>    
+</body>
+</html> -->

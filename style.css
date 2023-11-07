@@ -289,6 +289,5 @@ h5{
     color: var(--white);
     margin-left: 55px;
     position: absolute;
-    height: 32px;
-    width: 32px;
+    font-size: 10px;
 }
