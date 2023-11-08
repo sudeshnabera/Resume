@@ -28,3 +28,13 @@ $(document).ready(function() {
         }
     );
 });
+
+document.getElementById('addEducation').addEventListener('click', function () {
+    const educationContainer = document.getElementById('educationContainer');
+    const newEducationEntry = document.querySelector('#edu-box');
+    console.log(newEducationEntry.innerHTML);
+    educationContainer.innerHTML = educationContainer.innerHTML + newEducationEntry.innerHTML;
+});
+
+
+
