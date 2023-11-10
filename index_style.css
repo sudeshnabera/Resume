@@ -1,193 +1,103 @@
-/* style.css */
-* { 
-	margin: 0; 
-	padding: 0; 
-	box-sizing: border-box; 
-} 
+*{
+    padding: 0px ;
+    margin: 0px;
+    
 
-body { 
-	background-image: linear-gradient(rgb(30, 30, 30), rgb(80, 80, 80)); 
-	background-attachment: fixed; 
-	font-family: Arial, Helvetica, sans-serif; 
-} 
+}
 
-.resume-builder { 
-	padding: 27px; 
-} 
+body {
+	background-color: #f5f5f5;
+	color: #333;
+	background-image: url('login_background.jpg');
+    background-repeat: no-repeat;
+	background-size:100% 200%;
 
-.container { 
-	padding: 10px 30px; 
-	background: rgb(240, 240, 240); 
-	border-radius: 10px; 
-	height: auto; 
-	width: 250%; 
-	margin: auto; 
-} 
-
-.container h1 { 
-	text-align: center; 
-	background-color: rgb(50, 50, 50); 
-	padding: 10px; 
-	color: white; 
-	margin-bottom: 20px; 
-} 
-.container h4 { 
 	
-	background-color: #66696e; 
-	padding:5px; 
-	color: white; 
-	margin-bottom: 10px; 
-    width: 250px;
-    height: 30px;
-} 
- 
-input, 
-textarea { 
-	background-color: transparent; 
-	margin: 10px 0; 
-	padding: 5px; 
-	outline: none; 
-	border: none; 
-	border-bottom: 2px solid black; 
-	display: block; 
-	width: 100%; 
-} 
+}
 
-button { 
-	border: none; 
-	background-color: white; 
-	padding: 15px; 
-	border-radius: 7px; 
-	font-weight: bold; 
-	cursor: pointer; 
-	display: block; 
-	margin: auto; 
-	margin-bottom: 20px; 
-} 
+.resume-builder {
+	padding: 50px 0;
+	
+}
 
-button:hover { 
-	font-size: medium; 
-} 
+.container {
 
-.output-container { 
-	display: none; 
-	width: 60%; 
-	margin: 10px auto; 
-} 
-
-.output { 
-	background-color: white; 
-	border: 2px solid white; 
-	margin-bottom: 10px; 
-} 
-
-.heading { 
-	padding: 20px 10px; 
-	text-align: center; 
-	color: white; 
-	background-color: rgb(50, 50, 50); 
-	text-transform: uppercase; 
-} 
-
-.heading h4 { 
-	color: rgb(200, 200, 200); 
-	padding-top: 9px; 
-} 
-
-.info { 
-	display: flex; 
-	padding: 20px; 
-} 
-
-.left { 
-	width: 40%; 
-	border-right: 2px dashed black; 
-	display: flex; 
-	flex-direction: column; 
-	justify-content: space-evenly; 
-} 
-
-.right { 
-	width: 60%; 
-	padding-left: 20px; 
-	display: flex; 
-	flex-direction: column; 
-	justify-content: space-evenly; 
-} 
-
-.box { 
-	margin: 10px 0; 
-	padding: 5px 10px; 
-	height: auto; 
-	overflow-wrap: break-word; 
-} 
-
-.box h2, 
-.box p { 
-	margin-bottom: 5px; 
-} 
-
-.tip { 
-	font-size: small; 
-	color: gray; 
-	text-align: center; 
-} 
-
-.credit { 
-	text-align: center; 
-	font-weight: bold; 
-	padding: 10px 3px; 
-	color: rgb(80, 80, 80); 
-} 
-
-a { 
-	color: black; 
-} 
-
-a:hover { 
-	color: rgb(247, 28, 12); 
-	font-weight: bold; 
-} 
-.select2-container{
-	padding:4px;
+	width: auto;
 	height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.select2-selection {
-	height: 40px;
+
+h1 {
+	color: #000000;
+	text-align: center;
+	border-bottom: 2px solid #007bff;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	
 }
-/* media queries begin */
-@media screen and (max-width: 920px) { 
-	.container { 
-		width: 100%; 
-	} 
+h2{
+	color: #6d6a7a;
+	text-align: center;
 
-	.output-container { 
-		width: 87%; 
-	} 
-} 
+	font-size: 50px;
+	padding-bottom: 10px;
+	
+}
 
-@media screen and (max-width: 600px) { 
-	.resume-builder { 
-		padding: 10px 30px; 
-	} 
+h4{
+	margin-top: 50px;
+}
 
-	h1 { 
-		font-size: 160%; 
-	} 
+.form-label {
+	color: #007bff;
+}
 
-	.info { 
-		flex-direction: column; 
-	} 
+.form-control {
+	background-color: #eee;
+	color: #333;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
 
-	.left { 
-		border-right: none; 
-		width: 100%; 
-	} 
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background-color: #007bff;
+	color: #fff;
+	border: 1px solid #0056b3;
+}
 
-	.right { 
-		padding-left: 0; 
-		width: 100%; 
-	} 
-} 
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: #fff;
+}
 
-/* media queries end here */
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+	border: 1px solid #0056b3;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	
+	border: 1px solid #004080;
+}
+.heading{
+	margin-bottom: 265px;
+}
+a.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #007bff;
+	border-radius: 10px;
+  }
+  
