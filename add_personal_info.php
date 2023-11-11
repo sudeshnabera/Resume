@@ -33,16 +33,18 @@
                         <input class="form-control" type="file" id="formFile">
                     </div>
                     <br>
-                    <div class="input-group mb-4">
-                        <span class="input-group-text">First and last name</span>
-                        <input type="text" aria-label="First name" class="form-control">
-                        <input type="text" aria-label="Last name" class="form-control">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="">First and last name</span>
+                        </div>
+                        <input type="text" class="form-control">
+                        <input type="text" class="form-control">
                     </div>
                     <div class="col-md-12 col-lg-6">
-                    <select class="form-select" aria-label="Default select example">
+                        <select class="form-select" aria-label="Default select example">
                     </div>
-                        <option value="1">Experience</option>
-                        <option value="2">Fresher</option>
+                    <option value="1">Experience</option>
+                    <option value="2">Fresher</option>
 
                     </select>
                     <div class="col-12">
@@ -57,25 +59,27 @@
                     <div class="col-12">
                         <h4> INFO</h4>
                     </div>
-                    <div class="col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
 
-                        <label for="inputPhone" class="form-label">Phone</label>
-                        <input type="phone" class="form-control" id="inputPhone">
-                    </div>
-                    <div class="col-md-12 col-lg-6">
-                        <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail">
-                    </div>
-                    <div class="col-md-12 col-lg-6">
-                        <label for="inputAddress" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="inputAddress">
+                            <label for="inputPhone" class="form-label">Phone</label>
+                            <input type="phone" class="form-control" id="inputPhone">
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
                     </div>
                 </div>
                 <br>
 
-                
-                <a href="add_socialmedias.php" class="btn btn-info" role="button">Next</a>
-
+                <div class="col-12 d-flex justify-content-end">
+                    <a href="add_socialmedias.php" class="btn btn-info" role="button">Next</a>
+                </div>
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

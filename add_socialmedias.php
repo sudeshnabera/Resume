@@ -60,9 +60,10 @@
                     </div>
                 </div>
                 <br><br>
+                <div class="col-12 d-flex justify-content-between">
                 <a href="add_personal_info.php" class="btn btn-info" role="button">Previous</a>
         <a href="add_education.php" class="btn btn-info" role="button">Next</a>
-            </div>
+        </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>

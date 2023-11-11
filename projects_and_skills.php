@@ -76,8 +76,10 @@
                     </div>
                 </div>
                 <br><br>
+                <div class="col-12 d-flex justify-content-between">
                 <a href="add_education.php" class="btn btn-info" role="button">Previous</a>
                 <a href="#" class="btn btn-info" role="button"> Generate / Edit</a>
+                </div>
             </div>
         </div>
         <script>

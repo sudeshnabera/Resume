@@ -32,11 +32,11 @@
                         <h4>EDUCATION</h4>
                     </div>
                     <div class="col-12">
-                        <div id="educationContainer">
+                        <div id="education-section">
 
 
                             <!-- Initial education entry -->
-                            <div class="education-entry row">
+                            <div class="row">
                                 <div class="col-12">
                                     <label for="institute" class="form-label">College/Institute</label>
                                     <input type="text" class="form-control" name="institute[]">
@@ -63,20 +63,62 @@
                             </div>
 
                         </div>
-                        <button type="button" class="btn btn-secondary" role="button" id="addEducation" onclick="addEducationEntry()">Add
-                            Education</button>
-
+                        <div class="col-12 d-flex justify-content-end">
+                            <button type="button" class="btn btn-info" role="button" id="addEducation"
+                                onclick="addEducationEntry()">Add
+                                Education</button>
+                        </div>
                     </div>
                 </div>
                 <br><br>
-                <a href="add_socialmedias.php" class="btn btn-info" role="button">Previous</a>
-                <a href="projects_and_skills.php" class="btn btn-info" role="button">Next</a>
+                <div class="col-12 d-flex justify-content-between">
+                    <a href="add_socialmedias.php" class="btn btn-info" role="button">Previous</a>
+                    <a href="projects_and_skills.php" class="btn btn-info" role="button">Next</a>
+                </div>
             </div>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+        <script>
+            function addEducationEntry() {
+                // Create a new div for the "Projects" section
+                var educationDiv = document.createElement("div");
 
-                <script src="script.js"></script>
+                // Add content to the "Projects" section
+                educationDiv.innerHTML = `
+                <div class="row">
+                                <div class="col-12">
+                                    <label for="institute" class="form-label">College/Institute</label>
+                                    <input type="text" class="form-control" name="institute[]">
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <label for="degree" class="form-label">Degree</label>
+                                    <input type="text" class="form-control" name="degree[]">
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <label for="major" class="form-label">Major</label>
+                                    <input type="text" class="form-control" name="major[]">
+                                </div>
+
+                                <div class="col-md-12 col-lg-6">
+                                    <label for="gpa" class="form-label">Percentage/GPA</label>
+                                    <input type="text" class="form-control" name="gpa[]">
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <label for="passingYear" class="form-label">Passing
+                                        Year</label>
+                                    <input type="text" class="form-control" name="passingYear[]">
+                                </div>
+                                <div class="border-top my-3"></div>
+                                </div>
+                `;
+
+                // Append the "Projects" section to the projects-section div
+                document.getElementById("education-section").appendChild(educationDiv);
+            }
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+        <script src="script.js"></script>
     </section>
 </body>
 
